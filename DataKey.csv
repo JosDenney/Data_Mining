@@ -1,0 +1,26 @@
+Attribute,Description,Additional Details,Attribute Data Type,Attribute Value
+ID,CustomerID,None,Numeric,Nominal
+LIMIT_BAL,Amount of given credit,None,Numeric,Ratio
+SEX,Gender,1=M 2=F,Numeric,Nominal
+EDUCATION,Education level,1=grad_sch 2=undergrad 3=HS 4=other,Numeric,Ordinal
+MARRIAGE,Marital Status,1=M 2=S 3=Other,Numeric,Nominal
+AGE,Age in years,None,Numeric,Ordinal
+PAY_0,Payment Status in September 2005 ,"<=0 == On Time/Early, >=1 == Late",Numeric,Ratio
+PAY_2,Payment Status in August 2005  ,"<=0 == On Time/Early, >=1 == Late",Numeric,Ratio
+PAY_3,Payment Status in July 2005,"<=0 == On Time/Early, >=1 == Late",Numeric,Ratio
+PAY_4,Payment Status in June 2005,"<=0 == On Time/Early, >=1 == Late",Numeric,Ratio
+PAY_5,Payment Status in May 2005,"<=0 == On Time/Early, >=1 == Late",Numeric,Ratio
+PAY_6,Payment Status in April 2005,"<=0 == On Time/Early, >=1 == Late",Numeric,Ratio
+BILL_AMT1,Bill Statement Amount ($) in September 2005,None,Numeric,Ratio
+BILL_AMT2,Bill Statement Amount ($) in August 2005,None,Numeric,Ratio
+BILL_AMT3,Bill Statement Amount ($) in July 2005,None,Numeric,Ratio
+BILL_AMT4,Bill Statement Amount ($) in June 2005,None,Numeric,Ratio
+BILL_AMT5,Bill Statement Amount ($) in May 2005,None,Numeric,Ratio
+BILL_AMT6,Bill Statement Amount ($) in April 2005,None,Numeric,Ratio
+PAY_AMT1,Amount Paid ($) in September 2005,None,Numeric,Ratio
+PAY_AMT2,Amount Paid ($) in August 2005,None,Numeric,Ratio
+PAY_AMT3,Amount Paid ($) in July 2005,None,Numeric,Ratio
+PAY_AMT4,Amount Paid ($) in June 2005,None,Numeric,Ratio
+PAY_AMT5,Amount Paid ($) in May 2005,None,Numeric,Ratio
+PAY_AMT6,Amount Paid ($) in April 2005,None,Numeric,Ratio
+DEFAULT PAYMENT NEXT MONTH,Whether customer payment defaulted,1=Y 0=N,Numeric,Nominal
