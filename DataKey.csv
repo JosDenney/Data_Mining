@@ -23,4 +23,12 @@ PAY_AMT3,Amount Paid ($) in July 2005,None,Numeric,Ratio
 PAY_AMT4,Amount Paid ($) in June 2005,None,Numeric,Ratio
 PAY_AMT5,Amount Paid ($) in May 2005,None,Numeric,Ratio
 PAY_AMT6,Amount Paid ($) in April 2005,None,Numeric,Ratio
-DEFAULT PAYMENT NEXT MONTH,Whether customer payment defaulted,1=Y 0=N,Numeric,Nominal
+DLQ_3MTHS,Count of times delinquent in first 3 months,None,Numeric,Ordinal
+%Avail1,Period 1 bill subtracted from credit limit,Expressed as a %,Numeric,Ratio
+%Avail2,Period 2 bill subtracted from credit limit,Expressed as a %,Numeric,Ratio
+%Avail3,Period 3 bill subtracted from credit limit,Expressed as a %,Numeric,Ratio
+%Avail4,Period 4 bill subtracted from credit limit,Expressed as a %,Numeric,Ratio
+%Avail5,Period 5 bill subtracted from credit limit,Expressed as a %,Numeric,Ratio
+%Avail6,Period 6 bill subratecd from credit limit,Expressed as a %,Numeric,Ratio
+PAY_STATUS,Whether a customer is delinquent in period 6,1=Y 0=N; applies to task2; applies to task 2,Numeric,Nominal
+DEFAULT PAYMENT NEXT MONTH,Whether customer payment defaulted,1=Y 0=N; renamed to DEFAULT,Numeric,Nominal
